@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#B09171"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prénom"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ville"
+        android:layout_marginTop="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerVille"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/villes"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sexe"
+        android:layout_marginTop="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupSexe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioMasculin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Homme" />
+
+        <RadioButton
+            android:id="@+id/radioFeminin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Femme" />
+    </RadioGroup>
+
+</LinearLayout>

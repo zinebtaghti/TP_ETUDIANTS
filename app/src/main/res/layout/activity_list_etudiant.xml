@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7C9B8"
+    android:padding="0dp">
+
+    <!-- Contenu principal de l'activité -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="0dp"
+        android:layout_margin="0dp">
+
+        <!-- ListView sans marges ni padding -->
+        <ListView
+            android:id="@+id/listViewEtudiants"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:padding="0dp"
+            android:layout_margin="0dp"/>
+    </LinearLayout>
+
+    <!-- Menu Drawer -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/main_meny"
+        app:headerLayout="@layout/header"
+        android:background="#f9f9f9"
+        android:padding="0dp"
+        android:layout_margin="0dp" />
+</androidx.drawerlayout.widget.DrawerLayout>
