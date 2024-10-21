@@ -62,7 +62,7 @@ L'application utilise les permissions suivantes :
 
 1. Clonez ce dépôt :
    ```bash
-   git clone https://github.com/username/etudiant-management-app.git
+   git clone https://github.com/zinebtaghti/TP_ETUDIANTS
 2.Ouvrez le projet dans Android Studio.
 
 3.Synchronisez le projet avec Gradle et compilez l'application.
@@ -70,3 +70,5 @@ L'application utilise les permissions suivantes :
 4.Exécutez l'application sur un émulateur ou un appareil physique.
 
 ## Video Descriptif
+
+https://github.com/user-attachments/assets/410a93f9-0ad7-4f27-b70e-612872d97117
