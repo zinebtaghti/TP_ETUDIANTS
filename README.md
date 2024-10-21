@@ -71,4 +71,6 @@ L'application utilise les permissions suivantes :
 
 ## Video Descriptif
 
-https://github.com/user-attachments/assets/410a93f9-0ad7-4f27-b70e-612872d97117
+
+https://github.com/user-attachments/assets/fbfa94bd-a45e-461e-b239-0cb4e7800b38
+
